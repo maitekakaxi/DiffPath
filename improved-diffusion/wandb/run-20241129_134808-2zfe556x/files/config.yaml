@@ -1,0 +1,197 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    python_version: 3.10.14
+    cli_version: 0.16.6
+    framework: huggingface
+    huggingface_version: 4.39.1
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1732888088.0
+    t:
+      1:
+      - 1
+      - 11
+      - 49
+      - 51
+      - 55
+      - 71
+      - 105
+      2:
+      - 1
+      - 11
+      - 49
+      - 51
+      - 55
+      - 71
+      - 105
+      3:
+      - 13
+      - 23
+      4: 3.10.14
+      5: 0.16.6
+      6: 4.39.1
+      8:
+      - 5
+      13: linux-x86_64
+data_dir:
+  desc: null
+  value: ''
+schedule_sampler:
+  desc: null
+  value: uniform
+lr:
+  desc: null
+  value: 0.0001
+weight_decay:
+  desc: null
+  value: 0.0
+lr_anneal_steps:
+  desc: null
+  value: 350000
+batch_size:
+  desc: null
+  value: 64
+microbatch:
+  desc: null
+  value: -1
+ema_rate:
+  desc: null
+  value: '0.9999'
+log_interval:
+  desc: null
+  value: 50
+save_interval:
+  desc: null
+  value: 50000
+resume_checkpoint:
+  desc: null
+  value: ''
+use_fp16:
+  desc: null
+  value: false
+fp16_scale_growth:
+  desc: null
+  value: 0.001
+seed:
+  desc: null
+  value: 102
+gradient_clipping:
+  desc: null
+  value: -1.0
+eval_interval:
+  desc: null
+  value: 2000
+checkpoint_path:
+  desc: null
+  value: diffusion_models/diff_path_chengdu_block_rand16_transformer_lr0.0001_0.0_2000_sqrt_h128_s2_d0.1_sd102_xstart_e2e
+image_size:
+  desc: null
+  value: 12
+num_channels:
+  desc: null
+  value: 128
+num_res_blocks:
+  desc: null
+  value: 2
+num_heads:
+  desc: null
+  value: 4
+num_heads_upsample:
+  desc: null
+  value: -1
+attention_resolutions:
+  desc: null
+  value: 16,8
+dropout:
+  desc: null
+  value: 0.1
+learn_sigma:
+  desc: null
+  value: false
+sigma_small:
+  desc: null
+  value: false
+class_cond:
+  desc: null
+  value: false
+diffusion_steps:
+  desc: null
+  value: 2000
+noise_schedule:
+  desc: null
+  value: sqrt
+timestep_respacing:
+  desc: null
+  value: ''
+use_kl:
+  desc: null
+  value: false
+predict_xstart:
+  desc: null
+  value: true
+rescale_timesteps:
+  desc: null
+  value: true
+rescale_learned_sigmas:
+  desc: null
+  value: true
+use_checkpoint:
+  desc: null
+  value: false
+use_scale_shift_norm:
+  desc: null
+  value: true
+model_arch:
+  desc: null
+  value: transformer
+in_channel:
+  desc: null
+  value: 16
+out_channel:
+  desc: null
+  value: 16
+training_mode:
+  desc: null
+  value: e2e
+vocab_size:
+  desc: null
+  value: 2866
+config_name:
+  desc: null
+  value: bert-base-uncased
+experiment_mode:
+  desc: null
+  value: No_Plan
+logits_mode:
+  desc: null
+  value: 1
+d_model:
+  desc: null
+  value: 64
+d_state:
+  desc: null
+  value: 16
+d_conv:
+  desc: null
+  value: 4
+expand:
+  desc: null
+  value: 2
+modality:
+  desc: null
+  value: path_chengdu
+experiment:
+  desc: null
+  value: random
+e2e_train:
+  desc: null
+  value: ../datasets/e2e_data
+padding_mode:
+  desc: null
+  value: block
+preprocessing_num_workers:
+  desc: null
+  value: 1

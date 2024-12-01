@@ -1,0 +1,59 @@
+creating data loader...
+hello loading text data.
+new data (path data),loading initialized random embeddings.
+initializing the random embeddings Embedding(2866, 16, padding_idx=2865)
+save the random encoder to diffusion_models/diff_path_chengdu_block_rand16_transformer_lr0.0001_0.0_2000_sqrt_h128_s2_d0.1_sd102_xstart_e2e/random_emb.torch
+Embedding(2866, 16, padding_idx=2865) False
+training...
+------------------------
+| grad_norm | 4.98     |
+| loss      | 3.65     |
+| loss_q0   | 3.64     |
+| loss_q1   | 3.62     |
+| loss_q2   | 3.69     |
+| loss_q3   | 3.63     |
+| mse       | 0.735    |
+| mse_q0    | 0.725    |
+| mse_q1    | 0.737    |
+| mse_q2    | 0.732    |
+| mse_q3    | 0.747    |
+| samples   | 64       |
+| step      | 0        |
+------------------------
+hello loading text data.
+loading initialized random embeddings.
+initializing the random embeddings Embedding(2866, 16, padding_idx=2865)
+save the random encoder to diffusion_models/diff_path_chengdu_block_rand16_transformer_lr0.0001_0.0_2000_sqrt_h128_s2_d0.1_sd102_xstart_e2e/random_emb.torch
+eval on validation set
+---------------------------
+| eval_loss    | 3.37     |
+| eval_loss_q0 | 3.4      |
+| eval_loss_q1 | 3.36     |
+| eval_loss_q2 | 3.36     |
+| eval_loss_q3 | 3.35     |
+| eval_mse     | 0.461    |
+| eval_mse_q0  | 0.48     |
+| eval_mse_q1  | 0.465    |
+| eval_mse_q2  | 0.446    |
+| eval_mse_q3  | 0.445    |
+---------------------------
+saving model 0...
+writing to diffusion_models/diff_path_chengdu_block_rand16_transformer_lr0.0001_0.0_2000_sqrt_h128_s2_d0.1_sd102_xstart_e2e/model000000.pt
+writing to diffusion_models/diff_path_chengdu_block_rand16_transformer_lr0.0001_0.0_2000_sqrt_h128_s2_d0.1_sd102_xstart_e2e/model000000.pt
+saving model 0.9999...
+writing to diffusion_models/diff_path_chengdu_block_rand16_transformer_lr0.0001_0.0_2000_sqrt_h128_s2_d0.1_sd102_xstart_e2e/ema_0.9999_000000.pt
+writing to diffusion_models/diff_path_chengdu_block_rand16_transformer_lr0.0001_0.0_2000_sqrt_h128_s2_d0.1_sd102_xstart_e2e/ema_0.9999_000000.pt
+------------------------
+| grad_norm | 3.17     |
+| loss      | 3.08     |
+| loss_q0   | 3.06     |
+| loss_q1   | 3.07     |
+| loss_q2   | 3.08     |
+| loss_q3   | 3.09     |
+| mse       | 0.228    |
+| mse_q0    | 0.216    |
+| mse_q1    | 0.224    |
+| mse_q2    | 0.229    |
+| mse_q3    | 0.242    |
+| samples   | 3.26e+03 |
+| step      | 50       |

@@ -1,0 +1,29 @@
+2024-11-29 13:48:08,339 INFO    MainThread:620474 [wandb_setup.py:_flush():76] Current SDK version is 0.16.6
+2024-11-29 13:48:08,339 INFO    MainThread:620474 [wandb_setup.py:_flush():76] Configure stats pid to 620474
+2024-11-29 13:48:08,339 INFO    MainThread:620474 [wandb_setup.py:_flush():76] Loading settings from /root/.config/wandb/settings
+2024-11-29 13:48:08,340 INFO    MainThread:620474 [wandb_setup.py:_flush():76] Loading settings from /root/workspace/DiffPath/improved-diffusion/wandb/settings
+2024-11-29 13:48:08,340 INFO    MainThread:620474 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-11-29 13:48:08,340 INFO    MainThread:620474 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-11-29 13:48:08,340 INFO    MainThread:620474 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'scripts/train.py', 'program_abspath': '/root/workspace/DiffPath/improved-diffusion/scripts/train.py', 'program': '/root/workspace/DiffPath/improved-diffusion/scripts/train.py'}
+2024-11-29 13:48:08,340 INFO    MainThread:620474 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-11-29 13:48:08,340 INFO    MainThread:620474 [wandb_init.py:_log_setup():521] Logging user logs to /root/workspace/DiffPath/improved-diffusion/wandb/run-20241129_134808-2zfe556x/logs/debug.log
+2024-11-29 13:48:08,340 INFO    MainThread:620474 [wandb_init.py:_log_setup():522] Logging internal logs to /root/workspace/DiffPath/improved-diffusion/wandb/run-20241129_134808-2zfe556x/logs/debug-internal.log
+2024-11-29 13:48:08,340 INFO    MainThread:620474 [wandb_init.py:init():561] calling init triggers
+2024-11-29 13:48:08,340 INFO    MainThread:620474 [wandb_init.py:init():568] wandb.init called with sweep_config: {}
+config: {}
+2024-11-29 13:48:08,340 INFO    MainThread:620474 [wandb_init.py:init():611] starting backend
+2024-11-29 13:48:08,340 INFO    MainThread:620474 [wandb_init.py:init():615] setting up manager
+2024-11-29 13:48:08,341 INFO    MainThread:620474 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-11-29 13:48:08,342 INFO    MainThread:620474 [wandb_init.py:init():623] backend started and connected
+2024-11-29 13:48:08,344 INFO    MainThread:620474 [wandb_init.py:init():715] updated telemetry
+2024-11-29 13:48:08,344 INFO    MainThread:620474 [wandb_init.py:init():748] communicating run to backend with 90.0 second timeout
+2024-11-29 13:48:09,654 INFO    MainThread:620474 [wandb_run.py:_on_init():2357] communicating current version
+2024-11-29 13:48:09,961 INFO    MainThread:620474 [wandb_run.py:_on_init():2366] got version response upgrade_message: "wandb version 0.18.7 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-11-29 13:48:09,961 INFO    MainThread:620474 [wandb_init.py:init():799] starting run threads in backend
+2024-11-29 13:48:17,098 INFO    MainThread:620474 [wandb_run.py:_console_start():2335] atexit reg
+2024-11-29 13:48:17,098 INFO    MainThread:620474 [wandb_run.py:_redirect():2190] redirect: wrap_raw
+2024-11-29 13:48:17,099 INFO    MainThread:620474 [wandb_run.py:_redirect():2255] Wrapping output streams.
+2024-11-29 13:48:17,099 INFO    MainThread:620474 [wandb_run.py:_redirect():2280] Redirects installed.
+2024-11-29 13:48:17,100 INFO    MainThread:620474 [wandb_init.py:init():842] run started, returning control to user process
+2024-11-29 13:48:17,101 INFO    MainThread:620474 [wandb_run.py:_config_callback():1347] config_cb None None {'data_dir': '', 'schedule_sampler': 'uniform', 'lr': 0.0001, 'weight_decay': 0.0, 'lr_anneal_steps': 350000, 'batch_size': 64, 'microbatch': -1, 'ema_rate': '0.9999', 'log_interval': 50, 'save_interval': 50000, 'resume_checkpoint': '', 'use_fp16': False, 'fp16_scale_growth': 0.001, 'seed': 102, 'gradient_clipping': -1.0, 'eval_interval': 2000, 'checkpoint_path': 'diffusion_models/diff_path_chengdu_block_rand16_transformer_lr0.0001_0.0_2000_sqrt_h128_s2_d0.1_sd102_xstart_e2e', 'image_size': 12, 'num_channels': 128, 'num_res_blocks': 2, 'num_heads': 4, 'num_heads_upsample': -1, 'attention_resolutions': '16,8', 'dropout': 0.1, 'learn_sigma': False, 'sigma_small': False, 'class_cond': False, 'diffusion_steps': 2000, 'noise_schedule': 'sqrt', 'timestep_respacing': '', 'use_kl': False, 'predict_xstart': True, 'rescale_timesteps': True, 'rescale_learned_sigmas': True, 'use_checkpoint': False, 'use_scale_shift_norm': True, 'model_arch': 'transformer', 'in_channel': 16, 'out_channel': 16, 'training_mode': 'e2e', 'vocab_size': 2866, 'config_name': 'bert-base-uncased', 'experiment_mode': 'No_Plan', 'logits_mode': 1, 'd_model': 64, 'd_state': 16, 'd_conv': 4, 'expand': 2, 'modality': 'path_chengdu', 'experiment': 'random', 'e2e_train': '../datasets/e2e_data', 'padding_mode': 'block', 'preprocessing_num_workers': 1}
